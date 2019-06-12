@@ -61,8 +61,7 @@ class DCFNet(nn.Module):
         """
         # x: feature of patch x with hanning window. Shape (1, 32, crop_sz, crop_sz)
         x = self.feature(x) * self.config.cos_window
-        # TODO: calculate self.xf and self.wf
-        # put your code here
+      
 
 
 
